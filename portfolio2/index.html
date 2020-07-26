@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">        
+        <title>Portfolio-2 &mdash; K Yoshitake</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="ホテルを検索する">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-youtube_searched_for"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-data">
+                    <div class="user-data__icon-box">
+                        <svg class="user-data__icon">
+                            <use xlink:href="img/sprite.svg#icon-favorite_outline"></use>
+                        </svg>
+                        <span class="user-data__notification">3</span>
+                    </div>
+                    <div class="user-data__icon-box">
+                        <svg class="user-data__icon">
+                            <use xlink:href="img/sprite.svg#icon-person_outlineperm_identity"></use>
+                        </svg>
+                        <span class="user-data__notification">7</span>
+                    </div>
+                    <div class="user-data__user">
+                        <img src="img/user.jpg" alt="User photo" class="user-data__user-photo">
+                        <span class="user-data__user-name">K Yoshitake</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__list side-nav__list--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home_filled"></use>
+                                </svg>
+                                <span>ホテル</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-flight_takeoff"></use>
+                                </svg>
+                                <span>フライト</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-car_rental"></use>
+                                </svg>
+                                <span>車レンタル</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-emoji_people"></use>
+                                </svg>
+                                <span>ツアー</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="copyright">
+                       &copy; 2019 by K Yoshitake. All rights reserved.
+                    </div>
+                </nav>
+                <main class="hotel-main">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Hotel 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Hotel 3" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="headinfo">
+                        <div class="headinfo__left">
+                            <h1 class="headinfo__heading">
+                                ABC Hotel
+                            </h1>
+                            <div class="headinfo__star">
+                                <svg class="headinfo__star-icon">
+                                    <use xlink:href="img/sprite.svg#icon-star_outline"></use>
+                                </svg>
+                                <svg class="headinfo__star-icon">
+                                    <use xlink:href="img/sprite.svg#icon-star_outline"></use>
+                                </svg>
+                                <svg class="headinfo__star-icon">
+                                    <use xlink:href="img/sprite.svg#icon-star_outline"></use>
+                                </svg>
+                                <svg class="headinfo__star-icon">
+                                    <use xlink:href="img/sprite.svg#icon-star_outline"></use>
+                                </svg>
+                                <svg class="headinfo__star-icon">
+                                    <use xlink:href="img/sprite.svg#icon-star_outline"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="headinfo__right">
+                            <div class="headinfo__location">
+                                <svg class="headinfo__location-icon">
+                                    <use xlink:href="img/sprite.svg#icon-location_city"></use>
+                                </svg>
+                                <button class="btn-show">ABC県 DEF市 GHI町012番地 345-6789</button>
+                            </div>
+                            <div class="headinfo__rate">
+                                <div class="headinfo__rate-point">8.2</div>
+                                <div class="headinfo__rate-vote">1743 votes</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="maininfo">
+                        <div class="maininfo__description">
+                            <p class="maininfo__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dicta tenetur quaerat quo sunt ut explicabo, debitis esse, impedit amet excepturi iusto accusamus corrupti non magni laboriosam, labore in quia.
+                            </p>
+                            <p class="maininfo__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dicta tenetur quaerat quo sunt ut explicabo, debitis esse.
+                            </p>
+                            <ul class="maininfo__list">
+                                <li class="maininfo__item">朝食付き</li>
+                                <li class="maininfo__item">ペット可</li>
+                                <li class="maininfo__item">無料wifi付き</li>
+                                <li class="maininfo__item">駅から徒歩3分</li>
+                                <li class="maininfo__item">プール付き</li>
+                                <li class="maininfo__item">トレーニングジム有</li>
+                                <li class="maininfo__item">部屋が広くてきれい</li>
+                                <li class="maininfo__item">近くでショッピング</li>
+                            </ul>
+                            <div class="maininfo__recommend">
+                                <p class="maininfo__recomend__count">
+                                    太郎さんと3人のユーザーがオススメしています
+                                </p>
+                                <div class="maininfo__recommend__friends">
+                                    <img src="img/user-3.jpg" alt="Friend 1" class="maininfo__recommend__photo">
+                                    <img src="img/user-4.jpg" alt="Friend 2" class="maininfo__recommend__photo">
+                                    <img src="img/user-5.jpg" alt="Friend 3" class="maininfo__recommend__photo">
+                                    <img src="img/user-6.jpg" alt="Friend 4" class="maininfo__recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user">
+                            <figure class="user__review">
+                                <blockquote class="user__review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsum itaque unde similique vero, temporibus eius aliquid eos pariatur iste!
+                                </blockquote>
+                                <figcaption class="user__info">
+                                    <img src="img/user-1.jpg" alt="User 1" class="user__photo">
+                                    <div class="user__box">
+                                        <p class="user__name">鈴木次郎</p>
+                                        <p class="user__date">2019/10/19</p>
+                                    </div>
+                                    <div class="user__rate">9.1</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="user__review">
+                                <blockquote class="user__review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsum itaque unde similique vero, temporibus eius aliquid eos pariatur iste!
+                                </blockquote>
+                                <figcaption class="user__info">
+                                    <img src="img/user-2.jpg" alt="User 2" class="user__photo">
+                                    <div class="user__box">
+                                        <p class="user__name">田中花子</p>
+                                        <p class="user__date">2018/9/18</p>
+                                    </div>
+                                    <div class="user__rate">8.7</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-show">全てのレビューを見る<span>&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <div class="cta">
+                        <button class="btn">
+                            <span class="btn__visible">予約する</span>
+                            <span class="btn__invisible">本日残り3部屋</span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
